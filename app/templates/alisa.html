@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алиса (Яндекс)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Алиса (Яндекс)</h1>
+        <img src="{{ url_for('static', filename='images/alisa.jpg') }}" alt="Алиса" class="article-img">
+        <p>Алиса — голосовой помощник от Яндекса, использующий нейросети для ведения диалогов. Хорошо понимает русский язык, поддерживает умные колонки, смартфоны и другие устройства.</p>
+        <a href="{{ url_for('home') }}" class="btn">На главную</a>
+    </div>
+</body>
+</html>

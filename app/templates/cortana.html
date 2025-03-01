@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortana (Microsoft)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cortana (Microsoft)</h1>
+        <img src="{{ url_for('static', filename='images/cortana.jpg') }}" alt="Cortana" class="article-img">
+        <p>Cortana — голосовой помощник от Microsoft, интегрированный в Windows 10. Первоначально предназначался для широкого круга пользователей, но теперь больше ориентирован на корпоративный сектор и продукты Microsoft 365.</p>
+        <a href="{{ url_for('alisa') }}" class="btn">Далее</a>
+    </div>
+</body>
+</html>

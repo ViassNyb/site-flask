@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siri (Apple)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Siri (Apple)</h1>
+        <img src="{{ url_for('static', filename='images/siri.jpg') }}" alt="Siri" class="article-img">
+        <p>Siri — голосовой помощник Apple, представленный в 2011 году. Он интегрирован в устройства Apple, выполняет команды, помогает в поиске информации, управляет умным домом и может вести непринужденные диалоги.</p>
+        <a href="{{ url_for('google_assistant') }}" class="btn">Далее</a>
+    </div>
+</body>
+</html>
